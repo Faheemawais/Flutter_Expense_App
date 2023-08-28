@@ -7,6 +7,7 @@ class NewTransaction extends StatefulWidget {
 
   @override
   State<NewTransaction> createState() => _NewTransactionState();
+
 }
 
 class _NewTransactionState extends State<NewTransaction> {
@@ -34,6 +35,7 @@ class _NewTransactionState extends State<NewTransaction> {
     Navigator.of(context).pop();
   }
   void _presentDatePicker(){
+    print("object");
     showDatePicker(context: context, initialDate: DateTime.now(), firstDate: DateTime(2023), lastDate: DateTime.now(),).then((pickedDate) {
       if(pickedDate == null){
         return;
