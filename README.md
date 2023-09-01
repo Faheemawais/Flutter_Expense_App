@@ -1,4 +1,5 @@
 # Personal Expenses App
+This is my First Flutter Project based on the Single Screen Widget.
 The Personal Expenses App is a simple and intuitive mobile application built with Flutter that helps you track and manage your daily expenses efficiently.
 
 ## Features
